@@ -19,11 +19,11 @@ const boyButton = document.getElementById('boy')
 window.onload = () => {
 	girlButton.onclick = () => {
 		saveGender(1)
-		window.location.href = '/game1/game1.html'
+		window.location.href = '/valentine-app/game1/game1.html'
 	}
 
 	boyButton.onclick = () => {
 		saveGender(2)
-		window.location.href = '/game1/game1.html'
+		window.location.href = '/valentine-app/game1/game1.html'
 	}
 }
